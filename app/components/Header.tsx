@@ -1,86 +1,77 @@
 "use client";
-import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
-import { Button } from "./ui/moving-border";
-import { useUser } from "@clerk/nextjs";
-import { FlipWords } from "./ui/flip-words";
-import Content from "../(content)/sm/Content";
-import { AnimatedTooltip } from "./ui/animated-tooltip";
-import Link from "next/link";
-import { FeedBack } from "./feedback";
-const people = [
-  {
-    id: 1,
-    name: "S.VIJAY KUMAR",
-    designation: "Co-Founder & CSO",
-    image: "/vijay.svg",
-  },
-  {
-    id: 2,
-    name: "Sunil",
-    designation: "CEO & HR",
-    image: "/sunil.svg",
-  },
-];
-
 const Header = () => {
-  // const { user } = useUser();
-  const words = ["comprehensive", "engaging", "high-quality", "innovative"];
-  // if (!isLoaded || !isSignedIn) {
-  //   return null;
-  // } Succeed in your studies with appealing, gorgeous resources from Penbyt.
-  // const words = [
-  //   {
-  //     text: "Unlock",
-  //   },
-  //   {
-  //     text: "your",
-  //   },
-  //   {
-  //     text: "academic",
-  //   },
-  //   {
-  //     text: "potential",
-  //   },
-  //   {
-  //     text: "with",
-  //   },
-  //   {
-  //     text: "PENBYT.",
-  //     className: "text-purple-700 dark:text-purple-500",
-  //   },
-  // ];
-
   return (
-    <div className="h-[40rem] w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
-      <div className="flex flex-col items-center justify-center h-[40rem]  ">
-        <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base">
-          The road to academic successes starts from here
-        </p>
-        {/* <TypewriterEffectSmooth words={words} /> */}
-        <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400 mb-4 sm:mb-4 md:mb-4 lg:mb-4 xl:mb-4 text-center p-2 sm:p-3 md:p-4 lg:p-4 xl:p-4">
-          Access
-          <FlipWords words={words} /> <br />
-          educational content on Penbyt.
-        </div>
+    <div className="bg-white dark:bg-gray-900 pt-10">
+      {" "}
+      {/* Root background changes based on theme */}
+      <section className="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24 dark:bg-opacity-10 dark:bg-[#1f1f1f]">
+        {" "}
+        {/* Section background adjusts */}
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+            <div>
+              <p className="text-base font-semibold tracking-wider text-blue-600 uppercase dark:text-blue-400">
+                {" "}
+                {/* Text color in light/dark mode */}A social media for learners
+              </p>
+              <h1 className="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl dark:text-white">
+                {" "}
+                {/* Heading text color */}
+                Connect & learn from the experts
+              </h1>
+              <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl dark:text-gray-300">
+                {" "}
+                {/* Body text color */}
+                Grow your career fast with the right mentor.
+              </p>
 
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-          <button className="w-40 h-10 rounded-xl bg-purple-600 border  border-transparent text-white text-sm">
-            <Link href="/content">Get Content</Link>
-          </button>
-          <Button
-            borderRadius="1.75rem"
-            className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-purple-800 "
-          >
-            <Link href="/about">About Us</Link>
-          </Button>
+              <a
+                href="#"
+                title=""
+                className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400 dark:text-black dark:bg-yellow-500 dark:hover:bg-yellow-600 dark:focus:bg-yellow-600"
+                role="button"
+              >
+                Join for free
+                <svg
+                  className="w-6 h-6 ml-8 -mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
+                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </a>
+
+              <p className="mt-5 text-gray-600 dark:text-gray-400">
+                {" "}
+                {/* Text color for "Already joined us?" */}
+                Already joined us?{" "}
+                <a
+                  href="#"
+                  title=""
+                  className="text-black transition-all duration-200 hover:underline dark:text-white"
+                >
+                  Log in
+                </a>
+              </p>
+            </div>
+
+            <div>
+              <img
+                className="w-full"
+                src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png"
+                alt="Hero"
+              />
+            </div>
+          </div>
         </div>
-        {/* <h1 className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base mt-5">
-          Our Team
-        </h1>
-        <div className="flex flex-row items-center justify-center mb-10 mt-2 w-full">
-          <AnimatedTooltip items={people} />
-        </div> */}
-      </div>
+      </section>
     </div>
   );
 };
