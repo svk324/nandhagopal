@@ -14,13 +14,12 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-between">
           <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
-            {/* <Image
+            <Image
               src={isDarkMode ? "/logo-white.svg" : "/logo.svg"}
               width={110}
               height={50}
               alt="Penbyt-logo"
-            /> */}
-            <p>Nandha project</p>
+            />
             <p className="mt-4 text-gray-600 dark:text-gray-300 text-left">
               Empowering minds and shaping futures through innovative and
               accessible study materials.
@@ -28,6 +27,7 @@ const Footer = () => {
             <div className="flex space-x-4 mt-4">
               <a
                 href="https://x.com/penbyt"
+                target="_blank"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white"
               >
                 <Image
@@ -40,6 +40,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://github.com/Penbyt"
+                target="_blank"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white"
               >
                 <Image
@@ -52,6 +53,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://discord.gg/xB6SXGVD"
+                target="_blank"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white"
               >
                 <Image
@@ -64,6 +66,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.linkedin.com/company/penbyt/"
+                target="_blank"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white"
               >
                 <Image
@@ -76,6 +79,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://instagram.com/penbyt"
+                target="_blank"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white"
               >
                 <Image
@@ -88,6 +92,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.youtube.com/@TodaysTechTelugu"
+                target="_blank"
                 className="text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-white"
               >
                 <Image
@@ -111,6 +116,7 @@ const Footer = () => {
                     <li key={link.label}>
                       <a
                         href={link.href}
+                        rel="noopener noreferrer" // Recommended for security
                         className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                       >
                         {link.label}

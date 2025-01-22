@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home", icon: "/home.svg" },
-  // { href: "/store", key: "store", label: "Store", icon: "/store.svg" },
-  { href: "/courses", key: "Courses", label: "Courses", icon: "/book.svg" },
+  { href: "/store", key: "store", label: "Store", icon: "/store.svg" },
+  { href: "/content", key: "content", label: "Content", icon: "/book.svg" },
   { href: "/blogs", key: "blogs", label: "Blogs", icon: "/blog.svg" },
   { href: "/contact", key: "contact", label: "Help Center", icon: "/help.svg" },
   { href: "/about", key: "about", label: "About", icon: "/about.svg" },
