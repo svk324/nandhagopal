@@ -14,13 +14,12 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-between">
           <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
-            {/* <Image
-              src={isDarkMode ? "/logo-white.svg" : "/logo.svg"}
+            <Image
+              src={isDarkMode ? "/logo.jpg" : "logo.jpg"}
               width={110}
               height={50}
               alt="Penbyt-logo"
-            /> */}
-            <p>Nandha project</p>
+            />
             <p className="mt-4 text-gray-600 dark:text-gray-300 text-left">
               Empowering minds and shaping futures through innovative and
               accessible study materials.

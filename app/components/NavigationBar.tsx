@@ -68,13 +68,12 @@ const NavigationBar = () => {
     >
       <div className="flex items-center text-lg font-bold">
         <Link href="/">
-          {/* <Image
-            src={isDarkMode ? "/logo-white.svg" : "/logo.svg"}
+          <Image
+            src={isDarkMode ? "/logo.jpg" : "/logo.jpg"}
             width={110}
             height={50}
-            alt="Penbyt-logo"
-          /> */}
-          <p>Nandha project</p>
+            alt="SVLU"
+          />
         </Link>
       </div>
       <nav
