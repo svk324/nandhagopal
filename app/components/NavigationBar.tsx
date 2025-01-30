@@ -69,7 +69,7 @@ const NavigationBar = () => {
       <div className="flex items-center text-lg font-bold">
         <Link href="/">
           <Image
-            src={isDarkMode ? "/logo.jpg" : "/logo.jpg"}
+            src={isDarkMode ? "/logo.svg" : "/logo-w.svg"}
             width={110}
             height={50}
             alt="SVLU"

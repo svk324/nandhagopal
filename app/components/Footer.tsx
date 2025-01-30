@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
             <Image
-              src={isDarkMode ? "/logo.jpg" : "logo.jpg"}
+              src={isDarkMode ? "/logo.svg" : "/logo-w.svg"}
               width={110}
               height={50}
               alt="Penbyt-logo"
