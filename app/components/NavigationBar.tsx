@@ -1,7 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { NAV_LINKS } from "./Data/data";
 import Image from "next/image";
 import { useTheme } from "./ThemeContext"; // Adjust the import path as needed
@@ -160,17 +159,6 @@ const NavigationBar = () => {
             />
           )}
         </motion.button>
-
-        <SignedOut>
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <SignInButton />
-          </motion.div>
-        </SignedOut>
-        <SignedIn>
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            <UserButton />
-          </motion.div>
-        </SignedIn>
       </div>
       <AnimatePresence>
         {isMobileMenuOpen && (

@@ -11,15 +11,6 @@ export const NAV_LINKS = [
 
 export const FOOTER_LINKS = [
   {
-    title: "Product",
-    links: [
-      { href: "/store", label: "Store" },
-      // { href: "/content", label: "Content" },
-      // { href: "/gate", label: "Gate Materials" },
-      // { href: "/exampapers", label: "Exam Papers" },
-    ],
-  },
-  {
     title: "Company",
     links: [
       { href: "/about", label: "About us" },
@@ -44,4 +35,13 @@ export const FOOTER_LINKS = [
       { href: "/refund-policy", label: "Refund Policy" },
     ],
   },
+  // {
+  //   title: "Product",
+  //   links: [
+  //     { href: "/store", label: "Store" },
+  //     { href: "/content", label: "Content" },
+  //      { href: "/gate", label: "Gate Materials" },
+  //      { href: "/exampapers", label: "Exam Papers" },
+  //   ],
+  // },
 ];
