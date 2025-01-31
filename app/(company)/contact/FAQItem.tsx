@@ -58,35 +58,41 @@ interface FAQ {
 const FAQAccordion: React.FC = () => {
   const faqs: FAQ[] = [
     {
-      question: "How can I access the e-PDF study materials I purchased?",
+      question: "How can I access the courses I purchased on SVLU?",
       answer:
-        "After completing your purchase, you will receive an email with a download link for your e-PDF study materials. You can also access your purchased materials by logging into your account on our website and navigating to the 'My Downloads' section.",
+        "Once your purchase is complete, you will receive a confirmation email along with a link to access your courses. You can also log into your SVLU account and visit the 'My Courses' section to start learning anytime, anywhere.",
     },
     {
       question:
-        "What should I do if I have trouble downloading or opening the e-PDF files?",
+        "What should I do if I have trouble accessing my course materials?",
       answer:
-        "If you encounter issues with downloading or opening e-PDF files, ensure that you have a PDF reader installed on your device. If problems persist, please contact our support team through the 'Help' section of our website for further assistance.",
+        "If you experience issues accessing your course materials, first ensure that you are logged into the correct account. If problems persist, reach out to our support team via the 'Help' section on our website, and we will assist you promptly.",
     },
     {
-      question: "Can I print the e-PDF study materials I purchased?",
+      question: "Can I download the course content for offline use?",
       answer:
-        "Yes, you can print the e-PDF study materials for personal use. Please ensure that you adhere to our usage terms and conditions, which prohibit redistribution or commercial use of the printed materials.",
+        "Depending on the course format, you may have the option to download certain materials for offline use. For more details, please check the course description or contact our support team for further assistance.",
     },
     {
-      question: "How do I update my account information?",
+      question: "How can I update my account information on SVLU?",
       answer:
-        "To update your account information, log in to your account on our website and navigate to the 'Account Settings' section. Here, you can update your personal details, email address, and password.",
+        "To update your account information, simply log in to your SVLU account and go to 'Account Settings.' Here, you can modify your personal details, change your password, or update your email address.",
     },
     {
-      question: "What should I do if I forgot my account password?",
+      question: "What should I do if I forgot my SVLU account password?",
       answer:
-        "If you forgot your password, click on the 'Forgot Password' link on the login page. Follow the instructions to reset your password using the email address associated with your account.",
+        "If you’ve forgotten your password, click the 'Forgot Password' link on the login page. Follow the instructions to reset your password using the email address associated with your account.",
     },
     {
-      question: "How can I contact customer support for additional help?",
+      question: "How can I contact SVLU customer support?",
       answer:
-        "For additional help, you can contact our customer support team through the 'Help' section on our website. You can also reach us via email at support@penbyt.com or by calling our customer service hotline.",
+        "If you need assistance, you can contact our dedicated customer support team through the 'Help' section on our website. Alternatively, feel free to reach us via email at support@svlu.com, and we’ll be happy to assist you.",
+    },
+    {
+      question:
+        "Can I collaborate with SVLU for course development or partnerships?",
+      answer:
+        "SVLU is always open to collaboration opportunities. If you’re interested in developing courses or partnering with us, please reach out to our team via the 'Contact Us' section on our website or email us at partnerships@svlu.com.",
     },
     // Add more FAQ items as needed
   ];

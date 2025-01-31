@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Blogs & News - Penbyt",
+  title: "Blogs & News - SVLU",
   description:
-    "Stay updated with Penbyt's latest career opportunities and news. Discover job openings, internships, and learn how to join our innovative team of study materials and resource experts.",
+    "Stay updated with the latest news, career opportunities, and announcements from SVLU. Explore job openings, internships, and learn how you can be part of our innovative team dedicated to enhancing education through high-quality courses and resources.",
   keywords:
-    "Penbyt careers, job openings, internships, career opportunities, Penbyt jobs, employment, intern positions, study materials careers",
+    "SVLU careers, job openings, internships, career opportunities, SVLU jobs, employment, intern positions, study materials careers, education jobs",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

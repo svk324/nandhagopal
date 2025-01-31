@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "About - Penbyt",
+  title: "About - SVLU",
   description:
-    "Learn more about Penbyt, your trusted provider of study materials and resources for interns. Discover our mission, values, team, and commitment to enhancing the internship experience through quality education.",
+    "Learn more about SVLU, your trusted partner in online learning. Discover our mission, values, and the dedicated team behind our commitment to enhancing education through high-quality courses and resources for learners and interns alike.",
   keywords:
-    "about Penbyt, company information, mission, values, team, internship resources, study materials, educational resources",
+    "about SVLU, company information, mission, values, team, online learning, educational resources, internship support, quality education",
 };
 
 export default function ContentLayout({

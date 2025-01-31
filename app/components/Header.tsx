@@ -1,7 +1,7 @@
 "use client";
 const Header = () => {
   return (
-    <div className="bg-white dark:bg-gray-900 pt-10">
+    <div className="bg-white dark:bg-black pt-10">
       {/* Root background adjusts based on theme */}
       <section className="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24 dark:bg-opacity-10 dark:bg-[#1f1f1f]">
         {/* Section background for smooth contrast */}
@@ -16,7 +16,7 @@ const Header = () => {
                 {/* Headline emphasizing platform's value proposition */}
                 Connect, Learn, and Grow with Expert Guidance
               </h1>
-              <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl dark:text-gray-300">
+              <p className="mt-4 text-base text-black lg:mt-8 sm:text-xl dark:text-zinc-300">
                 {/* Body text emphasizing career growth */}
                 Accelerate your career with personalized mentorship and
                 high-quality courses.

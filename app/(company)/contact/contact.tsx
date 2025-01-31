@@ -148,17 +148,17 @@ const ContactPage = () => {
               Get in Touch
             </h2> */}
             <p className="mb-4 dark:text-zinc-300">
-              Whether you have a question about our study materials, need
-              assistance, or want to share anything else, we're here to help.
-              Reach out to us anytime!
+              Whether you have a question about our courses, need assistance, or
+              want to share anything else, we're here to help. Reach out to us
+              anytime!
             </p>
             <div>
               <p className="dark:text-white">
                 <Link
-                  href="mailto:support@penbyt.com"
+                  href="mailto:support@svlu.in"
                   className="text-blue-600 font-semibold"
                 >
-                  support@penbyt.com
+                  support@svlu.in
                 </Link>
               </p>
             </div>

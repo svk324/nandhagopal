@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Contact - Penbyt",
+  title: "Contact - SVLU",
   description:
-    "Contact Penbyt for inquiries, support, or collaboration opportunities related to our study materials and resources for interns. Reach out to our team and explore how we can assist you.",
+    "Get in touch with SVLU for inquiries, support, or collaboration opportunities. Our team is here to assist you with everything related to our courses, resources, and services for learners and interns. Reach out today to explore how we can support your educational journey.",
   keywords:
-    "contact Penbyt, contact us, support, collaboration, study materials, internship resources, intern support, Penbyt contact",
+    "contact SVLU, contact us, support, collaboration, online courses, internship resources, educational support, SVLU contact",
 };
 
 export default function ContentLayout({

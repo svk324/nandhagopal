@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home", icon: "/home.svg" },
-  { href: "/store", key: "store", label: "Store", icon: "/store.svg" },
+  { href: "/courses", key: "courses", label: "courses", icon: "/book.svg" },
   // { href: "/courses", key: "Courses", label: "Courses", icon: "/book.svg" },
   { href: "/blogs", key: "blogs", label: "Blogs", icon: "/blog.svg" },
   { href: "/contact", key: "contact", label: "Help Center", icon: "/help.svg" },
@@ -38,7 +38,7 @@ export const FOOTER_LINKS = [
   // {
   //   title: "Product",
   //   links: [
-  //     { href: "/store", label: "Store" },
+  //     { href: "/courses", label: "Store" },
   //     { href: "/content", label: "Content" },
   //      { href: "/gate", label: "Gate Materials" },
   //      { href: "/exampapers", label: "Exam Papers" },
