@@ -1,5 +1,5 @@
 ---
-title: "Introducing SVLU AI: The Future of Personalized Educational Assistance""
+title: "Introducing SVLU AI: The Future of Personalized Educational Assistance"
 date: "February 07, 2025"
 author: "Nandha Gopal"
 image: "/b1.png"
