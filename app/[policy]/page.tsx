@@ -92,11 +92,11 @@ const PolicyPage = async ({
           </Link>{" "}
           ( or )
           <Link href="mailto:support@penbyte.in" className="text-blue-600">
-            support@penbyt.com
+            support@psvlu.in
           </Link>
         </p>
         <p className="flex items-center border bg-green-100 text-green-700 dark:bg-transparent dark:text-green-400 border-green-400 px-4 py-2 mt-4 rounded-xl text-xs">
-          <strong>Last update: November 04, 2024</strong>
+          <strong>Last update: February 07, 2025</strong>
         </p>
       </div>
     </div>

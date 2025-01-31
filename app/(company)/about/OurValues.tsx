@@ -6,13 +6,14 @@ export function FeaturesSectionDemo() {
     <div className="py-20 lg:py-40 dark:bg-zinc-950">
       <div className="max-w-7xl mx-auto text-center pb-8">
         <h2 className="text-base font-semibold tracking-wide uppercase text-purple-600">
-          Our values
+          Our Values at SVLU
         </h2>
         <p className="mt-1 text-4xl font-extrabold dark:text-white text-zinc-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
-          Committed to fostering education
+          Committed to Transforming Education
         </p>
         <p className="max-w-xl mt-5 mx-auto text-xl dark:text-white text-zinc-500">
-          Empowering students with resources for success.
+          Empowering learners with knowledge, resources, and support for
+          success.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-2 max-w-7xl mx-auto">
@@ -37,29 +38,34 @@ export function FeaturesSectionDemo() {
 
 const grid = [
   {
-    title: "Be world-class",
-    description: "Strive for excellence in all your educational endeavors.",
-  },
-  {
-    title: "Share knowledge",
+    title: "Be World-Class",
     description:
-      "Collaboration and knowledge sharing lead to collective growth.",
+      "Strive for excellence in all your educational endeavors through high-quality resources and expert-led courses.",
   },
   {
-    title: "Lifelong learning",
-    description: "Continuously seek new knowledge and skills.",
+    title: "Share Knowledge",
+    description:
+      "Fostering collaboration and knowledge exchange among learners and instructors for collective growth.",
   },
   {
-    title: "Be supportive",
-    description: "Encourage and support peers in their learning journeys.",
+    title: "Lifelong Learning",
+    description:
+      "Encouraging a continuous pursuit of knowledge and skills for a fulfilling and evolving career.",
   },
   {
-    title: "Take responsibility",
-    description: "Own your learning path and stay accountable.",
+    title: "Be Supportive",
+    description:
+      "Create a nurturing environment where students feel motivated, supported, and ready to take on new challenges.",
   },
   {
-    title: "Enjoy downtime",
-    description: "Balance study with relaxation for better productivity.",
+    title: "Take Responsibility",
+    description:
+      "Empower learners to own their educational journeys and remain committed to achieving their goals.",
+  },
+  {
+    title: "Enjoy Downtime",
+    description:
+      "Balance your learning with moments of relaxation and recreation to boost productivity and well-being.",
   },
 ];
 

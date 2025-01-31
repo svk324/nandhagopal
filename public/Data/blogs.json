@@ -1,29 +1,29 @@
 {
   "1": [
     {
-      "title": "Introducing penbyt",
-      "subtitle": "New Dashboard",
-      "urlButton": "penbyt",
-      "url": "https://penbyt.in",
+      "title": "SVLU Dashboard Enhancements",
+      "subtitle": "Smarter Learning Experience",
+      "urlButton": "svlu",
+      "url": "https://svlu.in",
       "image": "/images/1.2.0/dashboard-features.png",
-      "description": "Added new dashboard features to provide more insights.\nImplemented data visualization tools.\nIntroduced customizable widgets.",
+      "description": "SVLU introduces a redesigned dashboard that empowers learners and instructors with enhanced insights and tools. Key features include:\n- Interactive data visualizations for tracking learning progress.\n- Customizable widgets for a personalized experience.\n- Intuitive user interface for seamless navigation.",
       "date": "25 August 2024",
       "author": "John Doe"
     },
     {
-      "title": "Security Enhancements",
-      "subtitle": "Better Security",
+      "title": "Enhanced Security Measures",
+      "subtitle": "Stronger Data Protection",
       "image": "/images/1.2.1/security-enhancements.png",
-      "description": "Enhanced security measures to protect user data.Improved encryption protocols.Added two-factor authentication."
+      "description": "SVLU has rolled out enhanced security measures to safeguard user data. Key updates include:\n- Advanced encryption protocols for improved data security.\n- Introduction of two-factor authentication for additional protection."
     }
   ],
   "2": [
     {
-      "title": "Introducing penbyt",
-      "subtitle": "New Dashboard",
+      "title": "SVLU Dashboard Revamp",
+      "subtitle": "More Insights, Better Experience",
       "image": "/images/1.2.0/dashboard-features.png",
-      "description": "Added new dashboard features to provide more insights.\nImplemented data visualization tools.\nIntroduced customizable widgets.",
-      "date": "2024-08-01",
+      "description": "The new SVLU dashboard is designed to provide a more personalized and efficient experience. Highlights include:\n- Advanced data visualization tools for a deeper understanding of your learning journey.\n- Customizable widgets to tailor the dashboard to your needs.\n- A sleek, user-friendly interface that enhances overall navigation.",
+      "date": "1 August 2024",
       "author": "John Doe"
     }
   ]

@@ -9,7 +9,7 @@ export default function Header() {
       </p>
 
       <p className="text-xl sm:text-2xl text-gray-500 relative z-20">
-        Discover the latest news and happenings within the Penbyt community.
+        Discover the latest news and happenings within the SVLU community.
       </p>
     </div>
   );
