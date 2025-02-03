@@ -23,7 +23,7 @@ export default function RootLayout({
       <html lang="en">
         <body>
           <NavigationBar />
-          <main className={`${Lato.variable} antialiased flex-grow font-Lato`}>
+          <main className={`${Lato.variable} antialiased grow font-Lato`}>
             {children}
           </main>
           <Footer />

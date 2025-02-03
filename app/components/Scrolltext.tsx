@@ -34,7 +34,7 @@ const content: ContentItem[] = [
           height={300}
           className="h-full w-full object-cover rounded-xl"
           alt="Instructor Portrait"
-          placeholder="blur"
+          placeholder="blur-sm"
           blurDataURL="/placeholder.jpg"
         />
       </div>

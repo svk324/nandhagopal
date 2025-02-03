@@ -76,7 +76,7 @@ const StorePage = () => {
             <input
               type="text"
               placeholder="Search products..."
-              className="block w-full pl-10 pr-4 py-2 border border-zinc-300 rounded-xl bg-white text-zinc-900 dark:bg-black dark:border-zinc-700 dark:text-white focus:outline-none focus:ring-2 focus:ring-fuchsia-500 focus:border-fuchsia-500"
+              className="block w-full pl-10 pr-4 py-2 border border-zinc-300 rounded-xl bg-white text-zinc-900 dark:bg-black dark:border-zinc-700 dark:text-white focus:outline-hidden focus:ring-2 focus:ring-fuchsia-500 focus:border-fuchsia-500"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -84,7 +84,7 @@ const StorePage = () => {
           <div className="flex space-x-4">
             <div className="relative">
               <button
-                className="flex items-center space-x-2 px-4 py-2 bg-white border border-zinc-300 rounded-xl dark:bg-zinc-900 dark:border-zinc-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-fuchsia-500 focus:border-fuchsia-500"
+                className="flex items-center space-x-2 px-4 py-2 bg-white border border-zinc-300 rounded-xl dark:bg-zinc-900 dark:border-zinc-800 dark:text-white focus:outline-hidden focus:ring-2 focus:ring-fuchsia-500 focus:border-fuchsia-500"
                 onClick={() =>
                   setFilter((prev) =>
                     prev === "all"
@@ -105,7 +105,7 @@ const StorePage = () => {
             </div>
             <div className="relative">
               <button
-                className="flex items-center space-x-2 px-4 py-2 bg-white border border-zinc-300 rounded-xl dark:bg-zinc-900 dark:border-zinc-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-fuchsia-500 focus:border-fuchsia-500"
+                className="flex items-center space-x-2 px-4 py-2 bg-white border border-zinc-300 rounded-xl dark:bg-zinc-900 dark:border-zinc-800 dark:text-white focus:outline-hidden focus:ring-2 focus:ring-fuchsia-500 focus:border-fuchsia-500"
                 onClick={() =>
                   setSort((prev) =>
                     prev === "trending"
@@ -136,10 +136,10 @@ const StorePage = () => {
                 >
                   <div className="h-40 bg-zinc-200 rounded-t-lg dark:bg-zinc-700" />
                   <div className="p-4 space-y-4">
-                    <div className="h-4 bg-zinc-200 rounded dark:bg-zinc-700" />
-                    <div className="h-4 bg-zinc-200 rounded dark:bg-zinc-700" />
-                    <div className="h-4 bg-zinc-200 rounded dark:bg-zinc-700" />
-                    <div className="h-8 bg-zinc-200 rounded dark:bg-zinc-700" />
+                    <div className="h-4 bg-zinc-200 rounded-sm dark:bg-zinc-700" />
+                    <div className="h-4 bg-zinc-200 rounded-sm dark:bg-zinc-700" />
+                    <div className="h-4 bg-zinc-200 rounded-sm dark:bg-zinc-700" />
+                    <div className="h-8 bg-zinc-200 rounded-sm dark:bg-zinc-700" />
                   </div>
                 </div>
               ))
@@ -174,7 +174,7 @@ const StorePage = () => {
                       <span className="text-fuchsia-500 font-bold text-3xl dark:text-fuchsia-400">
                         ₹{product.price}
                       </span>
-                      <button className="px-4 py-2 bg-purple-200 text-white rounded-xl hover:bg-fuchsia-300 focus:outline-none focus:ring-2 focus:ring-fuchsia-500 focus:ring-offset-2 dark:bg-fuchsia-200 dark:hover:bg-fuchsia-500">
+                      <button className="px-4 py-2 bg-purple-200 text-white rounded-xl hover:bg-fuchsia-300 focus:outline-hidden focus:ring-2 focus:ring-fuchsia-500 focus:ring-offset-2 dark:bg-fuchsia-200 dark:hover:bg-fuchsia-500">
                         <Image
                           src="/cart.svg"
                           width={20}

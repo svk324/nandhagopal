@@ -39,7 +39,7 @@ export default function BlogList({ posts = [] }: BlogListProps) {
               className="w-full h-full"
               style={{ height: "auto" }}
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+            <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black to-transparent p-4">
               <div className="flex items-center justify-between text-gray-300 text-sm mb-2">
                 <p>
                   {post.date} · {post.author}

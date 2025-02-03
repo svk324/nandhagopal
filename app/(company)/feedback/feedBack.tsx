@@ -136,7 +136,7 @@ const FeedbackPage = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 text-sm self-start"
+          className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 text-sm self-start"
         >
           {submissionError}
         </motion.p>
@@ -156,7 +156,7 @@ const FeedbackPage = () => {
               placeholder="Name"
               onChange={(e) => setName(e.target.value)}
               onKeyPress={handleKeyPress}
-              className="w-full p-2 text-xl text-zinc-500 dark:bg-black placeholder-zinc-300 border-b-2 border-zinc-300 focus:outline-none focus:border-purple-500 transition-colors duration-300 dark:bg-dark-700 dark:border-zinc-600 dark:text-white"
+              className="w-full p-2 text-xl text-zinc-500 dark:bg-black placeholder-zinc-300 border-b-2 border-zinc-300 focus:outline-hidden focus:border-purple-500 transition-colors duration-300 dark:bg-dark-700 dark:border-zinc-600 dark:text-white"
             />
           </label>
           {errors.name && (
@@ -164,7 +164,7 @@ const FeedbackPage = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 text-sm self-start"
+              className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 text-sm self-start"
             >
               {errors.name}
             </motion.p>
@@ -205,7 +205,7 @@ const FeedbackPage = () => {
               placeholder="Email"
               onChange={(e) => setEmail(e.target.value)}
               onKeyPress={handleKeyPress}
-              className="w-full p-2 text-xl text-zinc-500 dark:bg-black placeholder-zinc-300 border-b-2 border-zinc-300 focus:outline-none focus:border-purple-500 transition-colors duration-300"
+              className="w-full p-2 text-xl text-zinc-500 dark:bg-black placeholder-zinc-300 border-b-2 border-zinc-300 focus:outline-hidden focus:border-purple-500 transition-colors duration-300"
             />
           </label>
           {errors.email && (
@@ -213,7 +213,7 @@ const FeedbackPage = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 text-sm self-start"
+              className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 text-sm self-start"
             >
               {errors.email}
             </motion.p>
@@ -283,7 +283,7 @@ const FeedbackPage = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 text-sm self-start"
+              className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 text-sm self-start"
             >
               {errors.answers}
             </motion.p>
@@ -322,7 +322,7 @@ const FeedbackPage = () => {
               placeholder="Any other comments"
               onChange={(e) => setComments(e.target.value)}
               onKeyPress={handleKeyPress}
-              className="w-full p-2 text-xl text-zinc-500 dark:bg-black placeholder-zinc-300 border-b-2 border-zinc-300 focus:outline-none focus:border-purple-500 transition-colors duration-300 dark:bg-dark-700 dark:border-zinc-600 dark:text-white"
+              className="w-full p-2 text-xl text-zinc-500 dark:bg-black placeholder-zinc-300 border-b-2 border-zinc-300 focus:outline-hidden focus:border-purple-500 transition-colors duration-300 dark:bg-dark-700 dark:border-zinc-600 dark:text-white"
             />
           </label>
           <div className="flex justify-between w-full">
