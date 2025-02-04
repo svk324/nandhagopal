@@ -7,7 +7,7 @@ const FloatingButton: React.FC = () => {
       aria-label="Help"
     >
       <div className="relative w-12 h-12 flex items-center justify-center">
-        <div className="absolute inset-0 rounded-full bg-linear-to-r from-fuchsia-500  to-purple-500 animate-rotate" />
+        <div className="absolute inset-0 rounded-full bg-gradient-to-r from-fuchsia-500  to-purple-500 animate-rotate" />
         <Link href="https://penbytgpt.vercel.app">
           <img
             src="/Ai.svg"
