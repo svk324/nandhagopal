@@ -117,13 +117,13 @@ export const SkeletonOne = () => {
             alt="header"
             width={80}
             height={80}
-            className="h-full w-full aspect-square object-cover object-left-top rounded-sm"
+            className="h-full w-full aspect-square object-cover object-left-top rounded-xs"
           />
         </div>
       </div>
 
-      <div className="absolute bottom-0 z-40 inset-x-0 h-60 bg-gradient-to-t from-white dark:from-black via-white dark:via-black to-transparent w-full pointer-events-none" />
-      <div className="absolute top-0 z-40 inset-x-0 h-60 bg-gradient-to-b from-white dark:from-black via-transparent to-transparent w-full pointer-events-none" />
+      <div className="absolute bottom-0 z-40 inset-x-0 h-60 bg-linear-to-t from-white dark:from-black via-white dark:via-black to-transparent w-full pointer-events-none" />
+      <div className="absolute top-0 z-40 inset-x-0 h-60 bg-linear-to-b from-white dark:from-black via-transparent to-transparent w-full pointer-events-none" />
     </div>
   );
 };
@@ -144,7 +144,7 @@ export const SkeletonThree = () => {
             alt="header"
             width={800}
             height={800}
-            className="h-full w-full aspect-square object-cover object-center rounded-sm blur-none group-hover/image:blur-md transition-all duration-200"
+            className="h-full w-full aspect-square object-cover object-center rounded-xs blur-none group-hover/image:blur-md transition-all duration-200"
           />
         </div>
       </div>
@@ -180,14 +180,14 @@ export const SkeletonTwo = () => {
             }}
             whileHover="whileHover"
             whileTap="whileTap"
-            className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"
+            className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 shrink-0 overflow-hidden"
           >
             <Image
               src={image}
               alt="bali images"
               width="500"
               height="500"
-              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover flex-shrink-0"
+              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover shrink-0"
             />
           </motion.div>
         ))}
@@ -202,21 +202,21 @@ export const SkeletonTwo = () => {
             variants={imageVariants}
             whileHover="whileHover"
             whileTap="whileTap"
-            className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"
+            className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 shrink-0 overflow-hidden"
           >
             <Image
               src={image}
               alt="bali images"
               width="500"
               height="500"
-              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover flex-shrink-0"
+              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover shrink-0"
             />
           </motion.div>
         ))}
       </div>
 
-      <div className="absolute left-0 z-[100] inset-y-0 w-20 bg-gradient-to-r from-white dark:from-black to-transparent  h-full pointer-events-none" />
-      <div className="absolute right-0 z-[100] inset-y-0 w-20 bg-gradient-to-l from-white dark:from-black  to-transparent h-full pointer-events-none" />
+      <div className="absolute left-0 z-100 inset-y-0 w-20 bg-linear-to-r from-white dark:from-black to-transparent  h-full pointer-events-none" />
+      <div className="absolute right-0 z-100 inset-y-0 w-20 bg-linear-to-l from-white dark:from-black  to-transparent h-full pointer-events-none" />
     </div>
   );
 };

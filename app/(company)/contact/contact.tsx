@@ -181,13 +181,13 @@ const ContactPage = () => {
                     type="text"
                     value={name}
                     onChange={(e) => handleInputChange("name", e.target.value)}
-                    className="border-[1.5px] p-3 pl-4 w-full rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-none focus:border-purple-500"
+                    className="border-[1.5px] p-3 pl-4 w-full rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-hidden focus:border-purple-500"
                     placeholder="Name"
                   />
                 </label>
               </div>
               {errors.name && (
-                <p className="flex bg-red-100 text-red-700 border border-red-400 w-40 px-4 py-0 rounded mb-4 text-sm self-start">
+                <p className="flex bg-red-100 text-red-700 border border-red-400 w-40 px-4 py-0 rounded-sm mb-4 text-sm self-start">
                   {errors.name}
                 </p>
               )}
@@ -196,12 +196,12 @@ const ContactPage = () => {
                   type="email"
                   value={email}
                   onChange={(e) => handleInputChange("email", e.target.value)}
-                  className="border-[1.5px] p-3 pl-4 mb-4 w-full rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-none focus:border-purple-500"
+                  className="border-[1.5px] p-3 pl-4 mb-4 w-full rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-hidden focus:border-purple-500"
                   placeholder="Email"
                 />
               </label>
               {errors.email && (
-                <p className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 w-40 text-sm self-start">
+                <p className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 w-40 text-sm self-start">
                   {errors.email}
                 </p>
               )}
@@ -210,12 +210,12 @@ const ContactPage = () => {
                   type="text"
                   value={subject}
                   onChange={(e) => handleInputChange("subject", e.target.value)}
-                  className="border-[1.5px] p-3 pl-4 mb-4 w-full rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-none focus:border-purple-500"
+                  className="border-[1.5px] p-3 pl-4 mb-4 w-full rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-hidden focus:border-purple-500"
                   placeholder="Subject"
                 />
               </label>
               {errors.subject && (
-                <p className="flex flex-col bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 text-sm w-40 self-start">
+                <p className="flex flex-col bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 text-sm w-40 self-start">
                   {errors.subject}
                 </p>
               )}
@@ -223,12 +223,12 @@ const ContactPage = () => {
                 <textarea
                   value={message}
                   onChange={(e) => handleInputChange("message", e.target.value)}
-                  className="border-[1.5px] p-3 pl-4 mb-4 w-full h-32 rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-none focus:border-purple-500"
+                  className="border-[1.5px] p-3 pl-4 mb-4 w-full h-32 rounded-3xl dark:bg-zinc-950 dark:border-zinc-800 dark:text-white focus:outline-hidden focus:border-purple-500"
                   placeholder="Message"
                 />
               </label>
               {errors.message && (
-                <p className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 text-sm w-40 self-start">
+                <p className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 text-sm w-40 self-start">
                   {errors.message}
                 </p>
               )}
@@ -249,7 +249,7 @@ const ContactPage = () => {
                 </span>
               </div>
               {errors.acceptedTerms && (
-                <p className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded mb-4 text-sm w-40 self-start">
+                <p className="flex bg-red-100 text-red-700 border border-red-400 px-4 py-0 rounded-sm mb-4 text-sm w-40 self-start">
                   {errors.acceptedTerms}
                 </p>
               )}
@@ -257,7 +257,7 @@ const ContactPage = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 type="submit"
-                className={`bg-purple-500 text-white px-4 py-2 rounded-3xl hover:bg-purple-600 focus:outline-none ${
+                className={`bg-purple-500 text-white px-4 py-2 rounded-3xl hover:bg-purple-600 focus:outline-hidden ${
                   isLoading ? "opacity-50 cursor-not-allowed" : ""
                 }`}
                 disabled={isLoading}

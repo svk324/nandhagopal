@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <div className="bg-white dark:bg-black pt-10">
       {/* Root background adjusts based on theme */}
-      <section className="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24 dark:bg-opacity-10 dark:bg-[#1f1f1f]">
+      <section className="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24 dark:bg-opacity-10 dark:bg-black">
         {/* Section background for smooth contrast */}
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">

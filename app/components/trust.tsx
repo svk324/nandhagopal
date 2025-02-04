@@ -48,16 +48,15 @@ const TrustComponent = () => {
               }`}
             >
               {studyMaterialsInView && (
-                <CountUp end={15000} duration={2} separator="," />
+                <CountUp end={20} duration={2} separator="," />
               )}
-              +
             </h2>
             <p
               className={`text-zinc-600 mt-2 ${
                 isDarkMode ? "text-zinc-300" : ""
               }`}
             >
-              Study materials available
+              Courses available
             </p>
           </div>
           <div className="flex-1 p-4 text-center" ref={studentsServedRef}>
@@ -67,15 +66,16 @@ const TrustComponent = () => {
               }`}
             >
               {studentsServedInView && (
-                <CountUp end={100000} duration={2} separator="," />
+                <CountUp end={1000} duration={2} separator="," />
               )}
+              +
             </h2>
             <p
               className={`text-zinc-600 mt-2 ${
                 isDarkMode ? "text-zinc-300" : ""
               }`}
             >
-              Students served
+              Students Enrolled
             </p>
           </div>
           <div className="flex-1 p-4 text-center" ref={successRateRef}>
@@ -85,7 +85,7 @@ const TrustComponent = () => {
               }`}
             >
               {successRateInView && (
-                <CountUp end={95} duration={2} suffix="%" />
+                <CountUp end={97} duration={2} suffix="%" />
               )}
             </h2>
             <p
@@ -103,7 +103,7 @@ const TrustComponent = () => {
               }`}
             >
               {contentDownloadsInView && (
-                <CountUp end={50000} duration={2} separator="," />
+                <CountUp end={500} duration={2} separator="," />
               )}
               +
             </h2>
@@ -112,7 +112,7 @@ const TrustComponent = () => {
                 isDarkMode ? "text-zinc-300" : ""
               }`}
             >
-              Content Downloads
+              Accessible resources
             </p>
           </div>
         </div>

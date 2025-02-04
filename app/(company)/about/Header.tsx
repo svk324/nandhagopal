@@ -5,6 +5,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
+    // Check if the user prefers dark mode and set the initial state accordingly
     if (
       window.matchMedia &&
       window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -15,9 +16,9 @@ export default function Home() {
 
   return (
     <div
-      className={`dark:bg-black bg-white dark:bg-grid-white/[0.08] bg-grid-black/[0.06] mx-auto px-4 py-16 ${
-        darkMode ? "bg-zinc-900 text-zinc-100" : "bg-white text-white"
-      }`}
+      className={`${
+        darkMode ? "dark:bg-black text-zinc-100" : "bg-white text-black"
+      } bg-white dark:bg-black mx-auto px-4 py-16 transition-all`}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div>
@@ -30,24 +31,27 @@ export default function Home() {
               darkMode ? "text-zinc-400" : "text-zinc-600"
             }`}
           >
-            At <strong>Sri Venkateshwara Learning Universe (SVLU)</strong>, we
-            offer a diverse range of online courses to help you excel in your
-            field of interest. Explore our vast catalog of courses designed by
-            expert instructors and gain the knowledge you need to succeed.
+            At{" "}
+            <strong className="text-zinc-700 italic">
+              Sri Venkateshwara Learning Universe (SVLU)
+            </strong>
+            , we offer a diverse range of online courses to help you excel in
+            your field of interest. Explore our vast catalog of courses designed
+            by expert instructors and gain the knowledge you need to succeed.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col gap-4">
             <Image
-              src="/course1.png"
-              alt="Course 1"
+              src="/i1.png"
+              alt="Study Resource 1"
               width={400}
               height={300}
               className="rounded-lg"
             />
             <Image
-              src="/course3.png"
-              alt="Course 3"
+              src="/i3.png"
+              alt="Study Resource 3"
               width={400}
               height={300}
               className="rounded-lg"
@@ -55,22 +59,22 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4">
             <Image
-              src="/course2.png"
-              alt="Course 2"
+              src="/i2.png"
+              alt="Study Resource 2"
               width={400}
               height={300}
               className="rounded-lg"
             />
             <Image
-              src="/course4.png"
-              alt="Course 4"
+              src="/i4.png"
+              alt="Study Resource 4"
               width={400}
               height={300}
               className="rounded-lg"
             />
             <Image
-              src="/course5.png"
-              alt="Course 5"
+              src="/i5.png"
+              alt="Study Resource 5"
               width={400}
               height={300}
               className="rounded-lg"

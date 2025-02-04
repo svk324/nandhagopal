@@ -43,7 +43,7 @@ const ProductPage = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left Side: Image Section */}
-          <div className="relative bg-gradient-to-r from-purple-200 to-transparent rounded-3xl">
+          <div className="relative bg-linear-to-r from-purple-200 to-transparent rounded-3xl">
             {product.tag && (
               <div className="absolute top-0 left-0 p-2 bg-red-500 text-white text-xs font-bold shadow-2xl rounded-br-lg">
                 {product.tag}
@@ -98,7 +98,7 @@ const ProductPage = () => {
               </span>
             </div>
 
-            <button className="bg-purple-500 text-white font-semibold py-2 px-4 rounded-full w-full hover:bg-purple-600 focus:outline-none">
+            <button className="bg-purple-500 text-white font-semibold py-2 px-4 rounded-full w-full hover:bg-purple-600 focus:outline-hidden">
               <a
                 href={product.link}
                 className="dark:text-gray-300 text-white hover:text-gray-100 dark:hover:text-white"
