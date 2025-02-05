@@ -63,7 +63,7 @@ const PolicyPage = async ({
       <div className="max-w-(--breakpoint-md) mx-auto px-4">
         <div className="h-[15rem] w-full dark:bg-black bg-white dark:bg-grid-white/[0.08] bg-grid-black/[0.06] relative flex items-center justify-center">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-          <p className="text-4xl sm:text-6xl capitalize font-extrabold relative z-20 bg-clip-text text-transparent bg-linear-to-b from-black to-slate-200 pt-9 pb-4">
+          <p className="text-4xl sm:text-6xl capitalize font-extrabold relative z-20 bg-clip-text text-transparent bg-linear-to-b from-red-300 to-red-700 pt-9 pb-4">
             {policy.replace("-", " ")}
           </p>
         </div>

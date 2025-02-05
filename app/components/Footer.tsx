@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { FOOTER_LINKS } from "./Data/data"; // Adjust the import path as necessary
 import { useTheme } from "./ThemeContext"; // Adjust the import path as needed
+import Link from "next/link";
 
 const currentYear = new Date().getFullYear();
 
@@ -22,7 +23,7 @@ const Footer = () => {
             />
             <p className="mt-4 text-gray-600 dark:text-gray-300 text-left">
               Empowering minds and shaping futures through innovative and
-              accessible study materials.
+              accessible courses
             </p>
             <div className="flex space-x-4 mt-4">
               <a
@@ -121,9 +122,15 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="mt-8 border-t border-gray-200 dark:border-gray-700 pt-8 text-center lg:text-left">
+        <div className="mt-8 border-t border-gray-200 dark:border-gray-700 pt-8 flex justify-between text-center lg:text-left">
           <p className="text-gray-400 dark:text-gray-500 text-sm">
             &copy; {currentYear} SVLU. All rights reserved.
+          </p>
+          <p className="text-gray-500 dark:text-gray-500 text-sm">
+            Design & Developed by{" "}
+            <strong className="font-semibold text-black dark:text-white">
+              <Link href="https://alwayssvk.vercel.app">S.VIJAY KUMAR</Link>
+            </strong>{" "}
           </p>
         </div>
       </div>

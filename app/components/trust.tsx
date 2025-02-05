@@ -31,7 +31,7 @@ const TrustComponent = () => {
         <p
           className={`text-zinc-600 mt-2 ${isDarkMode ? "text-zinc-300" : ""}`}
         >
-          Access thousands of study materials and improve your learning
+          Access high quality courses and improve your learning
           experience.
         </p>
       </div>
